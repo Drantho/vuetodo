@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family:  'Montserrat', sans-serif;
+}
+
+#app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.male{
+    background-color: steelblue;
+    color: white;
+}
+
+.female{
+    background-color: pink;
+    color: darkslategray;
+}
+
+.portrait{
+    border-radius: 50%;
+    display: block;
+    width: 200px;
+    margin: 15px;
+}
+
+button{
+    padding: 8px 16px;
+}
